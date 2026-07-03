@@ -26,15 +26,17 @@ body{
     height: 100%;
     object-fit: cover;
     transition: .1s;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .card{
     width: 250px;
     height: 350px;
     margin: 0 30px 60px;
+    border-radius: 7px;
+    transition: 0.9s ease;
 }
 
 .card:hover{
-    box-shadow: 0 0 20px  black;
+    box-shadow: 3px 3px 20px  black;
 }
